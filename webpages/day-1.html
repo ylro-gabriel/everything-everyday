@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Day 1</h1>
+    <div class="day-1">
+      <p>
+        so today, im just trying to learn what ive studied or the past several
+        days which is making a triangle by using css.
+      </p>
+      <div class="triangle"></div>
+      <div class="triangle-medium"></div>
+      <div class="triangle-half"></div>
+    </div>
+    <div class="day-1-1">
+      <p>To make this, I learned to just set the borders of the elements.</p>
+      <pre>
+            <code>
+.triangle {
+  /* set position first */
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  /* set the borders */
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid rgb(2, 21, 231);
+}
+
+.triangle-medium {
+  position: absolute;
+  left: 150px;
+  top: 40px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 75px solid green;
+}
+
+.triangle-half {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  border-left: 50px solid transparent;
+  border-bottom: 60px solid red;
+}
+            </code>
+        </pre>
+    </div>
+  </body>
+</html>

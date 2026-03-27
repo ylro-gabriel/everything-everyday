@@ -7,3 +7,41 @@
 h1 {
   text-align: center;
 }
+
+/* Day 1 */
+.day-1 {
+  position: relative;
+}
+
+.triangle {
+  /* set position first */
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  /* set the borders */
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid rgb(2, 21, 231);
+}
+
+.triangle-medium {
+  position: absolute;
+  left: 150px;
+  top: 40px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 75px solid green;
+}
+
+.triangle-half {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  border-left: 50px solid transparent;
+  border-bottom: 60px solid red;
+}
+
+.day-1-1 {
+  position: relative;
+  top: 100px;
+}
