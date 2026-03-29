@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Day 3</title>
+    <style>
+      div {
+        margin: 15px;
+        padding: 10px;
+        border: 2px solid black;
+        width: 250px;
+        border-radius: 5px;
+        background-color: blueviolet;
+      }
+      button {
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      .cart {
+        background-color: yellow;
+      }
+
+      .buy {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <button title="Dont just hover, click!">Click</button>
+
+    <br />
+
+    <button>Ylro</button>
+    <button>chocolate</button>
+
+    <p>Hello, world!</p>
+    <p>Today, I studied some excel lessons to upskill.</p>
+
+    <div>
+      <p>Adults Plain Cotton T-shirt</p>
+      <p>Price: $7.99</p>
+      <br />
+      <button class="cart" onclick="alert('Added')">Add to Cart</button>
+      <button
+        class="buy"
+        onclick="
+          console.log('Loading...');
+          alert('Purchased');
+        "
+      >
+        Buy now
+      </button>
+    </div>
+
+    <script>
+      console.log("Welcome!");
+    </script>
+  </body>
+</html>
